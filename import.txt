@@ -1,0 +1,38 @@
+#Import steps of the flow
+
+demo video link:https://youtu.be/XKv7O5JxcWU
+
+There are two flows to import
+
+```SaveSignedCopies``` and `SendToBoss`
+
+To import these flows, login to your power automate account first, then go to `My Flow` and select `import` on the top-right corner
+
+You will need to create 3 folders in your one drive which corresponds to: `ready`,`sent` and `approved` folder mentioned in the readme
+
+
+##SendToBoss    
+
+This flow requires 3 connections:
+
+`one drive` and `adobe sign` and `adobe pdf tools`
+
+You need to login to one drive and adobe sign and give consent for the flow to access them.
+
+for adobe pdf tools, you need to provide your client secret, and private keys and other stuff which should be provided when you have signed up for adobe pdf tools.
+
+After the connection has been established, you need to change the folders and boss email at the start of the flow to the folders in your one drive.
+
+an example of the import and login process and folder selection can be seen in the demo video.
+
+
+##SaveSignedCopies
+This flow requires 3 connections:
+
+`one drive` and `adobe sign`
+
+You need to login to one drive and adobe sign and give consent for the flow to access them.
+
+After the connection has been established, you need to change the folders at the start of the flow to the folders in your one drive.
+
+an example of the import and login process and folder selection can be seen in the demo video.
